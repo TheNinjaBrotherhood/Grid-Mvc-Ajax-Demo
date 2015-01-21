@@ -1,0 +1,15 @@
+﻿@using GridMvc.Html
+@using GridMvc.Sorting
+@model Grid.Mvc.Ajax.GridExtensions.AjaxGrid<GridMVCAjaxDemo.Models.Footballer>
+
+@(
+    Html.Grid(Model).Named("FootballersGrid")
+        .Columns(columns => 
+            {
+                columns.Add(f => f.FirstName).Titled("First Name");
+                columns.Add(f => f.LastName).Titled("Last Name");
+                columns.Add(f => f.Age).Titled("Age");
+            })
+        .Filterable()
+        .Sortable()
+        .WithPaging(5));
