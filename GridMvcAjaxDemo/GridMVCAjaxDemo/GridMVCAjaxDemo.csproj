@@ -118,6 +118,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Data\FootballersData.cs" />
+    <Compile Include="Data\IDemoData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -134,6 +136,7 @@
     <Content Include="Content\GridMvc\gridmvc.datepicker.min.css" />
     <Content Include="Content\GridMvc\ladda-bootstrap\ladda-themeless.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\Application\home.js" />
@@ -146,6 +149,9 @@
     <Content Include="Scripts\GridMvc\gridmvc.lang.ru.js" />
     <Content Include="Scripts\GridMvc\gridmvc.min.js" />
     <Content Include="Scripts\GridMvc\gridmvc.min.js.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
