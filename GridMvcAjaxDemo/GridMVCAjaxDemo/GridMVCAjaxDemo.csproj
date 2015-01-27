@@ -177,7 +177,6 @@
     <Content Include="Views\Shared\_GridPager.cshtml" />
     <Content Include="Views\Shared\_Grid.cshtml" />
     <Content Include="Views\Shared\_AjaxGridPager.cshtml" />
-    <Content Include="Views\Home\_FootballersInformation.cshtml" />
     <Content Include="Views\Home\_FootballersGrid.cshtml" />
   </ItemGroup>
   <ItemGroup>
